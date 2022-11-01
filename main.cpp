@@ -1,4 +1,6 @@
 #include <math.h>
+#include <array>
+#include <vector>
 
 #include "picosystem.hpp"
 
@@ -12,11 +14,10 @@ struct vec_t {
 };
 
 int32_t lives;
-vec_t apple;
+
 
 constexpr vec_t bounds{.x = 18, .y = 16};
 constexpr int scale = 6;
-
 // Player
 struct {
   vec_t dir;
@@ -93,6 +94,29 @@ struct {
 
 } animal;
 
+class Fruit{
+  public:
+  vec_t pos;
+  vec_t dir;
+  Fruit(int x, int y){
+    pos = {.x = x, .y = y};
+    dir = {.x = 0, .y = 1};
+  }
+  vec_t next() {
+    return {.x = pos.x + dir.x, .y = pos.y + dir.y};
+  }
+
+  void move() {
+    pos = next(); 
+  }
+};
+
+std::string debug = "";
+std::vector<Fruit> fruits;
+
+Fruit place_fruit(){
+  return Fruit(std::rand() % bounds.x, 2);
+}
 
 void place_animal() {
   bool hit = false;
@@ -112,10 +136,12 @@ void set_game(int32_t _lives) {
 
   lives = _lives;
 
-  player.pos = {.x = 9, .y = 8};
+  player.pos = {.x = 9, .y = 15};
   player.dir = {.x = 1, .y = 0};
 
   place_animal();
+
+  fruits.push_back(place_fruit());
 }
 
 voice_t blip;
@@ -139,13 +165,30 @@ bool wall_hit_check(vec_t next){
   return next.x < 0 || next.x >= bounds.x || next.y < 2 || next.y >= bounds.y;
 }
 
+
+
 void update(uint32_t tick) {
   if(state == PLAYING) {
+
+    if (tick % 60 == 0) {
+      fruits.push_back(place_fruit());
+      printf(".\n");
+    }
+
+    if(tick % 30 == 0) {
+     if(state != GAME_OVER) {
+      for(auto & fruit: fruits){
+        fruit.move();
+        debug = str(fruit.pos.x) + " " + str(fruit.pos.y);
+      } 
+      // fruits.front().move();
+      // debug = str(fruits.front().pos.x) + " " + str(fruits.front().pos.y);
+    }}
     
     if(tick % 10 == 0) {
     
-      if(button(UP))    {player.dir.x =  0; player.dir.y = -1; player.move();}
-      if(button(DOWN))  {player.dir.x =  0; player.dir.y =  1; player.move();}
+      // if(button(UP))    {player.dir.x =  0; player.dir.y = -1; player.move();}
+      // if(button(DOWN))  {player.dir.x =  0; player.dir.y =  1; player.move();}
       if(button(LEFT))  {player.dir.x = -1; player.dir.y =  0; player.move();}
       if(button(RIGHT)) {player.dir.x =  1; player.dir.y =  0; player.move();}
 
@@ -173,9 +216,7 @@ void update(uint32_t tick) {
         animal.dir = change_animal_movement(false, true, animal.dir);
       }
 
-      if(state != GAME_OVER) {
-        animal.move();
-      }
+      
     }
   } else if (state == GAME_OVER) {
 
@@ -215,7 +256,8 @@ void draw(uint32_t tick) {
   frect(0, 0, SCREEN->w, 11);
   pen(0, 0, 0);
   text("Catch'em All!", 2, 2);
-  label(str(player.score));
+  // label(str(player.score));
+  label(debug);
 
   //Limites
   rect(2, 27, 116, 90);
@@ -223,6 +265,10 @@ void draw(uint32_t tick) {
 
   //Animal
   sprite(BIRD, transform(animal.pos).x + 3, transform(animal.pos).y + 3 );
+
+  for (auto fruit: fruits){
+    sprite(TOMATO, transform(fruit.pos).x + 3, transform(fruit.pos).y + 3 );
+  }
 
   bool flash = ((time() / 250) % 2) == 0;
   if(state == PLAYING || (state == GAME_OVER && flash)) {

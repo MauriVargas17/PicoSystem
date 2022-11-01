@@ -3328,8 +3328,12 @@ CMakeFiles/my_project.dir/main.cpp.obj: /Users/maurivargas17/Desktop/PicoProject
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/tr1/poly_hermite.tcc \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/tr1/poly_laguerre.tcc \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/tr1/riemann_zeta.tcc \
-  /Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.hpp \
-  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/memory \
+  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/array \
+  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/utility \
+  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/stl_relops.h \
+  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/initializer_list \
+  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/range_access.h \
+  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/vector \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/allocator.h \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++allocator.h \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/ext/new_allocator.h \
@@ -3340,6 +3344,13 @@ CMakeFiles/my_project.dir/main.cpp.obj: /Users/maurivargas17/Desktop/PicoProject
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/stl_uninitialized.h \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/ext/alloc_traits.h \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/alloc_traits.h \
+  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/stl_vector.h \
+  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/stl_bvector.h \
+  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/functional_hash.h \
+  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/hash_bytes.h \
+  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/vector.tcc \
+  /Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.hpp \
+  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/memory \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/stl_tempbuf.h \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/stl_raw_storage_iter.h \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/align.h \
@@ -3350,17 +3361,10 @@ CMakeFiles/my_project.dir/main.cpp.obj: /Users/maurivargas17/Desktop/PicoProject
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/uses_allocator.h \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/unique_ptr.h \
-  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/utility \
-  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/stl_relops.h \
-  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/initializer_list \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/tuple \
-  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/array \
-  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/range_access.h \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/invoke.h \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/stl_function.h \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/backward/binders.h \
-  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/functional_hash.h \
-  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/hash_bytes.h \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/shared_ptr.h \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/iosfwd \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/stringfwd.h \
@@ -3415,10 +3419,6 @@ CMakeFiles/my_project.dir/main.cpp.obj: /Users/maurivargas17/Desktop/PicoProject
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/errno.h \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/charconv.h \
   /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/basic_string.tcc \
-  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/vector \
-  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/stl_vector.h \
-  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/stl_bvector.h \
-  /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/11.3.1/bits/vector.tcc \
   /Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
   /Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_base/include/pico/types.h \
