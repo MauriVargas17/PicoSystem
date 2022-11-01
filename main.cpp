@@ -6,7 +6,7 @@
 
 using namespace picosystem;
 
-enum state_t {PLAYING, GAME_OVER, HEARTLOSS};
+enum state_t {PLAYING, GAME_OVER, HEARTLOSS, MENU, CREDITS};
 state_t state = PLAYING;
 
 struct vec_t {
@@ -166,8 +166,20 @@ bool wall_hit_check(vec_t next){
 }
 
 
-
 void update(uint32_t tick) {
+  
+  if(state==MENU){
+    bool credits=false;
+    pen(0, 0, 0);
+    clear();
+	  pen(0, 0, 0)
+	  text("PLAY!", 2, 2);
+    if (!credits && pressed(A)){
+      state=PLAYING;
+    }
+
+  }
+
   if(state == PLAYING) {
 
     if (tick % 60 == 0) {
