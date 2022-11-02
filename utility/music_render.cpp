@@ -1,30 +1,44 @@
 #include <math.h>
-
 #include "picosystem.hpp"
 
 using namespace picosystem;
 
 voice_t piano = voice(20, 200, 50, 50);
 
+bool playing_song;
+
 struct note_t {
   uint32_t f, d;
 };
 
-std::array<note_t, 25> notes = {{
-  { _, 4},
-  {C4, 2}, { _, 1}, {G3, 1},
-  {C4, 2}, { _, 1}, {G3, 1},
-  {C4, 1}, {G3, 1}, {C4, 1}, {E4, 1},
+std::array<note_t, 85> notes = {{
+  {E4, 1}, {E4, 1}, {E4, 1}, {D4, 1},
+  {E4, 1}, {E4, 1}, {E4, 1}, {E4, 1},
+  {F4, 1}, {F4, 1}, {F4, 1}, {E4, 1},
+  {D4, 2}, {C4, 1}, {D4, 1}, 
+  {E4, 1}, {E4, 1}, {E4, 1}, {D4, 1},
+  {E4, 1}, {E4, 1}, {E4, 1}, {E4, 1},
+  {F4, 1}, {F4, 1}, {F4, 1}, {F4, 1},   
+  {A4, 2}, {G4, 2},
+  {E4, 1}, {E4, 1}, {E4, 1}, {D4, 1},
+  {E4, 1}, {E4, 1}, {E4, 1}, {E4, 1},
+  {F4, 1}, {F4, 1}, {F4, 1}, {E4, 1},
+  {D4, 2}, {C4, 1}, {D4, 1}, 
+  {E4, 1}, {E4, 1}, {E4, 1}, {D4, 1},
+  {E4, 1}, {E4, 1}, {E4, 1}, {E4, 1},
+  {F4, 1}, {F4, 1}, {F4, 1}, {F4, 1},   
+  {A4, 2}, {G4, 2},
+  {C5, 1}, {C5, 1}, {C5, 1}, {A4, 1},
+  {C5, 1}, {C5, 1}, {C5, 1}, {A4, 1},
+  {C5, 1}, {C5, 1}, {C5, 1}, {D5, 1},
+  {D5, 3}, {B4, 1}, 
+  {C5, 1}, {C5, 1}, {C5, 1}, {A4, 1},
+  {C5, 1}, {C5, 1}, {C5, 1}, {A4, 1}, 
+  {C5, 1}, {C5, 1}, {C5, 1}, {A4, 1}, 
   {G4, 4},
-  {F4, 2}, { _, 1}, {D4, 1},
-  {F4, 2}, { _, 1}, {D4, 1},
-  {F4, 1}, {D4, 1}, {B3, 1}, {D4, 1},
-  {G3, 4},
-  { _, 4},
-  { _, 4},
 }};
 
-uint32_t bl = 200;  // beat length (ms)
+uint32_t bl = 285;  // beat length (ms)
 uint32_t ns = 15;   // note spacing
 uint32_t sc = 62;  // stave centre
 uint32_t ss = 6;   // stave spacing
@@ -110,16 +124,12 @@ void draw_note(uint32_t i, int32_t x, color_t c) {
   draw_note_shape(n, x, y);
 }
 
-// initialise the world
-void init() {
-}
-
 // process user input and update the world state
-void update(uint32_t tick) {
+void update_song(uint32_t tick) {
   note_tick += 25;
   song_tick += 25;
 
-  if(note_tick > (notes[current].d * bl)) {
+  if((note_tick > (notes[current].d * bl)) && playing) {
     // if current note has finished playing then move onto the next one
     if(++current >= notes.size()) {
       current = 0;
@@ -132,45 +142,11 @@ void update(uint32_t tick) {
   }
 }
 
-// draw the world
-void draw(uint32_t tick) {
-  // reset the camera and clear the framebuffer
-  camera();
-  pen(1, 2, 3);
-  clear();
+void play_song(uint32_t tick) {
+  playing_song = true;
+  update_song(tick);
+}
 
-  // draw title and bouncing notes
-  pen(15, 15, 15);
-  text("Mini Mozart Maestro", 13, 10);
-  sprite(189, 0, 10 + sin(time() / 100.0f) * 4.0f);
-  sprite(189, 110, 10 + sin((time() + 500) / 100.0f) * 4.0f);
-
-  // draw staves
-  pen(6, 6, 6);
-  for(int i = 0; i < 5; i++) {
-    hline(0, sc - i * ss - sg, 240);
-    hline(0, sc + i * ss + sg, 240);
-  }
-
-  // set the camera offset to track the music as it plays
-  camera(-90 + ((song_tick * ns) / bl), 0);
-
-  // draw bar separators
-  for(int i = 0; i < song_length(); i += 4) {
-    vline(i * ns - (ns / 2), sc - (ss * 5), (ss * 10));
-  }
-
-  // draw notes
-  uint32_t offset = 0;
-  for(int i = 0; i < notes.size(); i++) {
-    color_t c = i == current ? rgb(15, 15, 15) : rgb(11, 13, 12);
-    draw_note(i, note_offset(i) * ns, c);
-  }
-
-  // decorate with dancing flowers
-  camera();
-  for(int i = 0; i < 18; i+=4) {
-    int y = sin(time() / 200.0f + i / 2.0f) * 3.0f;
-    sprite(181 + (y > 0 ? 1 : 0), i * 8 + 2, 100 + y, 1, 1, 16, 16); // dancing flowers
-  }
+void stop_song(){
+  playing_song = false;
 }
