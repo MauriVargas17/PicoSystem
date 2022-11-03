@@ -190,9 +190,25 @@ void update(uint32_t tick) {
   
   if (state == MENU){
 
-    if(button(A))  {if(play_selected){change_state(PLAYING); play(enter, 2500, 50, 100);} else {change_state(SETTINGS); play(enter, 2500, 50, 100);} sleep(200);}
-    if(button(UP) && !play_selected) {play_selected = true; play(blip, 1800, 30, 100);}
-    if(button(DOWN) && play_selected) {play_selected = false; play(blip, 1800, 30, 100);}
+    if(button(A))  {
+      if(play_selected){
+        change_state(PLAYING); 
+      } else {
+        change_state(SETTINGS); 
+      } 
+      play(enter, 2500, 50, 100);
+      sleep(200);
+    }
+
+    if(button(UP) && !play_selected) {
+      play_selected = true; 
+      play(blip, 1800, 30, 100);
+    }
+    
+    if(button(DOWN) && play_selected) {
+      play_selected = false; 
+      play(blip, 1800, 30, 100);
+    }
 
   } else if (state == SETTINGS){
 
