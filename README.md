@@ -1,9 +1,14 @@
-# PicoSystem Template
+# Fruit Invaders
 
-If you're starting a project in your own GitHub repository, this directory will show you how to set it up.
-
-You should have:
+Este proyecto fue realizado utilizando el Pico SDK, por lo que son necesarios los siguientes archivos y carpetas para compilar el proyecto y desplegarlo en un PICO SYSTEM:
 
 - CMakeLists.txt
-- main.cpp (and/or your sources)
+- main.cpp
+- utility -> music_render.cpp
 - pico_sdk_import.cmake
+
+## Ejecución
+
+La carpeta build contiene el archivo my_project.uf2, el cual debe ser copiado y pegado en el PICO SYSTEM conectado a través de USB a nuestra computadora.
+
+Para compilar el código del archivo main.cpp al my_project.uf2, dentro de la carpeta build y en una terminal, se debe ejecutar el comando 'make'.
