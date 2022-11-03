@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "/Users/maurivargas17/Desktop/PicoProject/hello_pico/build/my_project.uf2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "/Users/maurivargas17/Desktop/PicoProject/hello_pico/build/fruit_invaders.uf2")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

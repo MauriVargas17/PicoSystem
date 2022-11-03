@@ -9,6 +9,6 @@ Este proyecto fue realizado utilizando el Pico SDK, por lo que son necesarios lo
 
 ## Ejecución
 
-La carpeta build contiene el archivo my_project.uf2, el cual debe ser copiado y pegado en el PICO SYSTEM conectado a través de USB a nuestra computadora.
+La carpeta build contiene el archivo fruit_invaders.uf2, el cual debe ser copiado y pegado en el PICO SYSTEM conectado a través de USB a nuestra computadora.
 
-Para compilar el código del archivo main.cpp al my_project.uf2, dentro de la carpeta build y en una terminal, se debe ejecutar el comando 'make'.
+Para compilar el código del archivo main.cpp al fruit_invaders.uf2, dentro de la carpeta build y en una terminal, se debe ejecutar el comando 'make'.

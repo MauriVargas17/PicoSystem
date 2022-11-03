@@ -172,7 +172,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=my_project
+CMAKE_PROJECT_NAME:STATIC=fruit_invaders
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/local/bin/arm-none-eabi-ranlib
@@ -296,6 +296,15 @@ PICO_STDIO_UART:BOOL=ON
 
 //Globablly enable stdio semihosting 
 PICO_STDIO_USB:BOOL=OFF
+
+//Value Computed by CMake
+fruit_invaders_BINARY_DIR:STATIC=/Users/maurivargas17/Desktop/PicoProject/hello_pico/build
+
+//Value Computed by CMake
+fruit_invaders_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+fruit_invaders_SOURCE_DIR:STATIC=/Users/maurivargas17/Desktop/PicoProject/hello_pico
 
 //Value Computed by CMake
 my_project_BINARY_DIR:STATIC=/Users/maurivargas17/Desktop/PicoProject/hello_pico/build
@@ -493,7 +502,7 @@ PICO_BOOT_STAGE2_DIR:INTERNAL=/Users/maurivargas17/Desktop/PicoProject/pico-sdk/
 PICO_CMAKE_PRELOAD_PLATFORM_DIR:INTERNAL=/Users/maurivargas17/Desktop/PicoProject/pico-sdk/cmake/preload/platforms
 PICO_CMAKE_PRELOAD_PLATFORM_FILE:INTERNAL=/Users/maurivargas17/Desktop/PicoProject/pico-sdk/cmake/preload/platforms/rp2040.cmake
 PICO_COMPILER_ASM:INTERNAL=/usr/local/bin/arm-none-eabi-gcc
-PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= /Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/cmsis /Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2040/hardware_regs
+PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= /Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/cmsis /Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2040/hardware_regs /Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/cmsis /Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2040/hardware_regs
 PICO_DOXYGEN_PATHS:INTERNAL= /Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common /Users/maurivargas17/Desktop/PicoProject/pico-sdk/lib/cyw43-driver/src /Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common /Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2040
 PICO_NO_HARDWARE:INTERNAL=0
 PICO_ON_DEVICE:INTERNAL=1

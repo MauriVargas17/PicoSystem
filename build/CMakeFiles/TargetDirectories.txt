@@ -1,6 +1,6 @@
 /Users/maurivargas17/Desktop/PicoProject/hello_pico/build/CMakeFiles/picosystem_screen_pio_h.dir
 /Users/maurivargas17/Desktop/PicoProject/hello_pico/build/CMakeFiles/picosystem_screen_double_pio_h.dir
-/Users/maurivargas17/Desktop/PicoProject/hello_pico/build/CMakeFiles/my_project.dir
+/Users/maurivargas17/Desktop/PicoProject/hello_pico/build/CMakeFiles/fruit_invaders.dir
 /Users/maurivargas17/Desktop/PicoProject/hello_pico/build/CMakeFiles/ELF2UF2Build.dir
 /Users/maurivargas17/Desktop/PicoProject/hello_pico/build/CMakeFiles/edit_cache.dir
 /Users/maurivargas17/Desktop/PicoProject/hello_pico/build/CMakeFiles/rebuild_cache.dir

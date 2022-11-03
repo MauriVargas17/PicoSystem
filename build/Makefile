@@ -188,17 +188,17 @@ picosystem_screen_double_pio_h/fast:
 .PHONY : picosystem_screen_double_pio_h/fast
 
 #=============================================================================
-# Target rules for targets named my_project
+# Target rules for targets named fruit_invaders
 
 # Build rule for target.
-my_project: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_project
-.PHONY : my_project
+fruit_invaders: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fruit_invaders
+.PHONY : fruit_invaders
 
 # fast build rule for target.
-my_project/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/build
-.PHONY : my_project/fast
+fruit_invaders/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/build
+.PHONY : fruit_invaders/fast
 
 #=============================================================================
 # Target rules for targets named ELF2UF2Build
@@ -296,7 +296,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_s
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -304,7 +304,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_s
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -312,7 +312,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_s
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -320,7 +320,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -328,7 +328,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -336,7 +336,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -344,7 +344,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.obj:
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -352,7 +352,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.i: U
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -360,7 +360,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.s: U
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/mutex.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -368,7 +368,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.obj: U
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.c.i
@@ -376,7 +376,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.i: Use
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.c.s
@@ -384,7 +384,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.s: Use
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/sem.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.c.obj
@@ -392,7 +392,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.obj: 
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.c.i
@@ -400,7 +400,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.i: Us
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.c.s
@@ -408,7 +408,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.s: Us
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/time.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -416,7 +416,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_he
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -424,7 +424,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_he
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -432,7 +432,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_he
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -440,7 +440,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.o
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.c.i
@@ -448,7 +448,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.i
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.c.s
@@ -456,7 +456,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.s
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/datetime.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -464,7 +464,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.obj:
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.c.i
@@ -472,7 +472,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.i: U
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.c.s
@@ -480,7 +480,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.s: U
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/pheap.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.c.obj
@@ -488,7 +488,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.obj:
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.c.i
@@ -496,7 +496,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.i: U
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.c.s
@@ -504,7 +504,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.s: U
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_util/queue.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
@@ -512,7 +512,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
@@ -520,7 +520,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
@@ -528,7 +528,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -536,7 +536,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/c
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -544,7 +544,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/c
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -552,7 +552,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/c
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -560,7 +560,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -568,7 +568,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -576,7 +576,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_divider/divider.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -584,7 +584,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_divider
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
@@ -592,7 +592,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
@@ -600,7 +600,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
@@ -608,7 +608,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -616,7 +616,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gp
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -624,7 +624,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gp
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -632,7 +632,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gp
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj
@@ -640,7 +640,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.c.i
@@ -648,7 +648,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.c.s
@@ -656,7 +656,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_interp/interp.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -664,7 +664,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -672,7 +672,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -680,7 +680,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -688,7 +688,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
@@ -696,7 +696,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
@@ -704,7 +704,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
@@ -712,7 +712,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -720,7 +720,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -728,7 +728,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -736,7 +736,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
@@ -744,7 +744,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
@@ -752,7 +752,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
@@ -760,7 +760,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -768,7 +768,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sy
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -776,7 +776,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sy
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -784,7 +784,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sy
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -792,7 +792,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/t
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -800,7 +800,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/t
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -808,7 +808,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/t
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -816,7 +816,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/ua
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -824,7 +824,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/ua
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -832,7 +832,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/ua
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -840,7 +840,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vr
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -848,7 +848,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vr
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -856,7 +856,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vr
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -864,7 +864,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdo
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -872,7 +872,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdo
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -880,7 +880,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdo
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -888,7 +888,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xo
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -896,7 +896,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xo
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -904,7 +904,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xo
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -912,7 +912,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bit_ops/bit
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -920,7 +920,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/boo
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -928,7 +928,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/boo
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -936,7 +936,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/boo
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_divider/divider.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -944,7 +944,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_divider/div
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -952,7 +952,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/doub
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -960,7 +960,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/doub
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -968,7 +968,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/doub
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -976,7 +976,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/doub
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -984,7 +984,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/doub
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -992,7 +992,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/doub
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -1000,7 +1000,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/doub
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -1008,7 +1008,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/doub
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -1016,7 +1016,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -1024,7 +1024,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -1032,7 +1032,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -1040,7 +1040,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -1048,7 +1048,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1056,7 +1056,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1064,7 +1064,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -1072,7 +1072,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -1080,7 +1080,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_int64_ops/p
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -1088,7 +1088,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -1096,7 +1096,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -1104,7 +1104,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -1112,7 +1112,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_mem_ops/mem
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1120,7 +1120,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/pl
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -1128,7 +1128,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/pl
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -1136,7 +1136,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/pl
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -1144,7 +1144,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/prin
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1152,7 +1152,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/prin
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1160,7 +1160,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/prin
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -1168,7 +1168,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/run
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1176,7 +1176,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/run
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1184,7 +1184,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/run
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -1192,7 +1192,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_li
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -1200,7 +1200,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_li
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -1208,7 +1208,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_li
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1216,7 +1216,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_li
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -1224,7 +1224,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_li
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -1232,7 +1232,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_li
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -1240,7 +1240,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_li
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -1248,7 +1248,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1256,7 +1256,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1264,7 +1264,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
@@ -1272,7 +1272,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -1280,7 +1280,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1288,7 +1288,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1296,7 +1296,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdl
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1304,7 +1304,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdl
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1312,7 +1312,7 @@ Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdl
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.obj: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.cpp.obj
@@ -1320,7 +1320,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.obj: Users/m
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.cpp.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.cpp.obj
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.i: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.cpp.i
@@ -1328,7 +1328,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.i: Users/mau
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.cpp.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.cpp.i
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.s: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.cpp.s
@@ -1336,7 +1336,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.s: Users/mau
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.cpp.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/assets.cpp.s
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.obj: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.cpp.obj
@@ -1344,7 +1344,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.obj: Users/ma
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.cpp.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.cpp.obj
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.i: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.cpp.i
@@ -1352,7 +1352,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.i: Users/maur
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.cpp.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.cpp.i
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.s: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.cpp.s
@@ -1360,7 +1360,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.s: Users/maur
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.cpp.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/audio.cpp.s
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.obj: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.cpp.obj
@@ -1368,7 +1368,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.obj: Users/ma
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.cpp.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.cpp.obj
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.i: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.cpp.i
@@ -1376,7 +1376,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.i: Users/maur
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.cpp.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.cpp.i
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.s: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.cpp.s
@@ -1384,7 +1384,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.s: Users/maur
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.cpp.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/blend.cpp.s
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.obj: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.cpp.obj
@@ -1392,7 +1392,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.obj: Users
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.cpp.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.cpp.obj
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.i: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.cpp.i
@@ -1400,7 +1400,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.i: Users/m
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.cpp.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.cpp.i
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.s: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.cpp.s
@@ -1408,7 +1408,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.s: Users/m
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.cpp.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/hardware.cpp.s
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.obj: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.cpp.obj
@@ -1416,7 +1416,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.obj: Use
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.cpp.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.cpp.obj
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.i: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.cpp.i
@@ -1424,7 +1424,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.i: Users
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.cpp.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.cpp.i
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.s: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.cpp.s
@@ -1432,7 +1432,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.s: Users
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.cpp.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/picosystem.cpp.s
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.obj: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.cpp.obj
@@ -1440,7 +1440,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.obj: Use
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.cpp.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.cpp.obj
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.i: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.cpp.i
@@ -1448,7 +1448,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.i: Users
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.cpp.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.cpp.i
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.s: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.cpp.s
@@ -1456,7 +1456,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.s: Users
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.cpp.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/primitives.cpp.s
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.obj: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.cpp.obj
@@ -1464,7 +1464,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.obj: Users/ma
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.cpp.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.cpp.obj
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.i: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.cpp.i
@@ -1472,7 +1472,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.i: Users/maur
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.cpp.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.cpp.i
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.s: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.cpp.s
@@ -1480,7 +1480,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.s: Users/maur
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.cpp.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/state.cpp.s
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.obj: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.cpp.obj
@@ -1488,7 +1488,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.obj: Users/mau
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.cpp.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.cpp.obj
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.i: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.cpp.i
@@ -1496,7 +1496,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.i: Users/mauri
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.cpp.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.cpp.i
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.s: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.cpp.s
@@ -1504,7 +1504,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.s: Users/mauri
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.cpp.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/text.cpp.s
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.obj: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.cpp.obj
@@ -1512,7 +1512,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.obj: Users/
 
 # target to build an object file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.cpp.obj
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.cpp.obj
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.i: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.cpp.i
@@ -1520,7 +1520,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.i: Users/ma
 
 # target to preprocess a source file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.cpp.i
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.cpp.i
 
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.s: Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.cpp.s
@@ -1528,7 +1528,7 @@ Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.s: Users/ma
 
 # target to generate assembly for a file
 Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.cpp.s
 .PHONY : Users/maurivargas17/Desktop/PicoProject/picosystem/libraries/utility.cpp.s
 
 main.obj: main.cpp.obj
@@ -1536,7 +1536,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -1544,7 +1544,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -1552,7 +1552,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -1576,7 +1576,7 @@ help:
 	@echo "... picosystem_screen_double_pio_h"
 	@echo "... picosystem_screen_pio_h"
 	@echo "... bs2_default"
-	@echo "... my_project"
+	@echo "... fruit_invaders"
 	@echo "... Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... Users/maurivargas17/Desktop/PicoProject/pico-sdk/src/common/pico_sync/critical_section.s"

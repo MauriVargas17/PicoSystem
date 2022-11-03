@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/maurivargas17/Desktop/PicoProject/hello_pico/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/my_project.dir/all
+all: CMakeFiles/fruit_invaders.dir/all
 all: CMakeFiles/ELF2UF2Build.dir/all
 all: pico-sdk/all
 .PHONY : all
@@ -75,7 +75,7 @@ preinstall: pico-sdk/preinstall
 # The main recursive "clean" target.
 clean: CMakeFiles/picosystem_screen_pio_h.dir/clean
 clean: CMakeFiles/picosystem_screen_double_pio_h.dir/clean
-clean: CMakeFiles/my_project.dir/clean
+clean: CMakeFiles/fruit_invaders.dir/clean
 clean: CMakeFiles/ELF2UF2Build.dir/clean
 clean: pico-sdk/clean
 .PHONY : clean
@@ -1430,33 +1430,33 @@ CMakeFiles/picosystem_screen_double_pio_h.dir/clean:
 .PHONY : CMakeFiles/picosystem_screen_double_pio_h.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/my_project.dir
+# Target rules for target CMakeFiles/fruit_invaders.dir
 
 # All Build rule for target.
-CMakeFiles/my_project.dir/all: CMakeFiles/ELF2UF2Build.dir/all
-CMakeFiles/my_project.dir/all: CMakeFiles/picosystem_screen_pio_h.dir/all
-CMakeFiles/my_project.dir/all: CMakeFiles/picosystem_screen_double_pio_h.dir/all
-CMakeFiles/my_project.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/maurivargas17/Desktop/PicoProject/hello_pico/build/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84 "Built target my_project"
-.PHONY : CMakeFiles/my_project.dir/all
+CMakeFiles/fruit_invaders.dir/all: CMakeFiles/picosystem_screen_pio_h.dir/all
+CMakeFiles/fruit_invaders.dir/all: CMakeFiles/picosystem_screen_double_pio_h.dir/all
+CMakeFiles/fruit_invaders.dir/all: CMakeFiles/ELF2UF2Build.dir/all
+CMakeFiles/fruit_invaders.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/maurivargas17/Desktop/PicoProject/hello_pico/build/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84 "Built target fruit_invaders"
+.PHONY : CMakeFiles/fruit_invaders.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/my_project.dir/rule: cmake_check_build_system
+CMakeFiles/fruit_invaders.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maurivargas17/Desktop/PicoProject/hello_pico/build/CMakeFiles 83
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/my_project.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fruit_invaders.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maurivargas17/Desktop/PicoProject/hello_pico/build/CMakeFiles 0
-.PHONY : CMakeFiles/my_project.dir/rule
+.PHONY : CMakeFiles/fruit_invaders.dir/rule
 
 # Convenience name for target.
-my_project: CMakeFiles/my_project.dir/rule
-.PHONY : my_project
+fruit_invaders: CMakeFiles/fruit_invaders.dir/rule
+.PHONY : fruit_invaders
 
 # clean rule for target.
-CMakeFiles/my_project.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_project.dir/build.make CMakeFiles/my_project.dir/clean
-.PHONY : CMakeFiles/my_project.dir/clean
+CMakeFiles/fruit_invaders.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fruit_invaders.dir/build.make CMakeFiles/fruit_invaders.dir/clean
+.PHONY : CMakeFiles/fruit_invaders.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ELF2UF2Build.dir
